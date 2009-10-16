@@ -11,6 +11,7 @@
 		2FDB8E951087E58C001FBB58 /* TFRunButtonDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB8E941087E58C001FBB58 /* TFRunButtonDelegate.rb */; };
 		2FDB8F131087F3B9001FBB58 /* SpecRunner.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB8F121087F3B9001FBB58 /* SpecRunner.rb */; };
 		2FDB8F9D1088FC7F001FBB58 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB8F9C1088FC7F001FBB58 /* WebKit.framework */; };
+		2FDB90351089293E001FBB58 /* ey-logo-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB90341089293E001FBB58 /* ey-logo-lg.png */; };
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -31,6 +32,7 @@
 		2FDB8E941087E58C001FBB58 /* TFRunButtonDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TFRunButtonDelegate.rb; sourceTree = "<group>"; };
 		2FDB8F121087F3B9001FBB58 /* SpecRunner.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SpecRunner.rb; sourceTree = "<group>"; };
 		2FDB8F9C1088FC7F001FBB58 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		2FDB90341089293E001FBB58 /* ey-logo-lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ey-logo-lg.png"; path = "Resources/ey-logo-lg.png"; sourceTree = "<group>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2FDB90341089293E001FBB58 /* ey-logo-lg.png */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
@@ -186,6 +189,7 @@
 				2FDB8E931087E574001FBB58 /* TFTableDelegate.rb in Resources */,
 				2FDB8E951087E58C001FBB58 /* TFRunButtonDelegate.rb in Resources */,
 				2FDB8F131087F3B9001FBB58 /* SpecRunner.rb in Resources */,
+				2FDB90351089293E001FBB58 /* ey-logo-lg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
