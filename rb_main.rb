@@ -8,7 +8,6 @@
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can
 # do that here too.
-#$LOAD_PATH << File.expand_path(File.dirname(__FILE__) + '/Vendor/RSpec/lib/')
 $LOAD_PATH << '/Users/pbiegaj/projects/TheFlash/Vendor/RSpec/lib/'
 require 'spec/autorun'
 
