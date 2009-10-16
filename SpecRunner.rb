@@ -4,7 +4,7 @@
 #
 #  Created by Piotr Biegaj on 10/15/09.
 #  Copyright (c) 2009 Engine Yard Inc.. All rights reserved.
-#/Users/pbiegaj/projects/TheFlash/spec/generic_spec.rb
+#/Users/pbiegaj/projects/TheFlash/spec/
 
 class SpecRunner
 	def initialize

@@ -25,4 +25,9 @@ class TFRunButtonDelegate
 		  browser.mainFrame.loadHTMLString(File.open(filename).read, :baseURL => url)
 		end
 	end
+	
+	def clearWindow(sender)
+		url = NSURL.URLWithString('')
+		browser.mainFrame.loadHTMLString('', :baseURL => url)
+	end
 end
