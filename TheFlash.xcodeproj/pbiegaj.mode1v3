@@ -282,7 +282,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 760}}</string>
+							<string>{{0, 0}, {186, 730}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -294,14 +294,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 778}}</string>
+						<string>{{0, 0}, {203, 748}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>75 47 1920 819 0 0 1440 878 </string>
+						<string>326 89 1920 789 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,14 +331,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2FDB900910891BC8001FBB58</string>
+										<string>2FDB9032108928B4001FBB58</string>
 										<key>history</key>
 										<array>
 											<string>2FDB8EA01087EC7F001FBB58</string>
 											<string>2FDB8F4B1088E676001FBB58</string>
-											<string>2FDB8F911088FA65001FBB58</string>
-											<string>2FDB900610891BC8001FBB58</string>
-											<string>2FDB900710891BC8001FBB58</string>
+											<string>2FDB901110892535001FBB58</string>
+											<string>2FDB902F108928B4001FBB58</string>
+											<string>2FDB9030108928B4001FBB58</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -427,6 +427,12 @@
 											<string>2FDB8FFB108913A9001FBB58</string>
 											<string>2FDB900010891A94001FBB58</string>
 											<string>2FDB900810891BC8001FBB58</string>
+											<string>2FDB901410892535001FBB58</string>
+											<string>2FDB901510892535001FBB58</string>
+											<string>2FDB901610892535001FBB58</string>
+											<string>2FDB901710892535001FBB58</string>
+											<string>2FDB901810892535001FBB58</string>
+											<string>2FDB9031108928B4001FBB58</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -438,14 +444,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1712, 763}}</string>
+								<string>{{0, 0}, {1712, 735}}</string>
 								<key>RubberWindowFrame</key>
-								<string>75 47 1920 819 0 0 1440 878 </string>
+								<string>326 89 1920 789 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>763pt</string>
+							<string>735pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -458,14 +464,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 768}, {1712, 10}}</string>
+								<string>{{0, 740}, {1712, 8}}</string>
 								<key>RubberWindowFrame</key>
-								<string>75 47 1920 819 0 0 1440 878 </string>
+								<string>326 89 1920 789 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>10pt</string>
+							<string>8pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -628,7 +634,7 @@
 		<string>/Users/pbiegaj/projects/TheFlash/TheFlash.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>75 47 1920 819 0 0 1440 878 </string>
+	<string>326 89 1920 789 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -972,7 +978,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {809, 527}}</string>
 								<key>RubberWindowFrame</key>
-								<string>487 130 809 568 0 0 1440 878 </string>
+								<string>488 130 809 568 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -1001,7 +1007,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>487 130 809 568 0 0 1440 878 </string>
+			<string>488 130 809 568 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

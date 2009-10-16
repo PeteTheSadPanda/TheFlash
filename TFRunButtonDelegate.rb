@@ -10,11 +10,20 @@ class TFRunButtonDelegate
 	attr_accessor :testfile_field
 	attr_accessor :progress_spinner
 	attr_accessor :browser
+	attr_accessor :error_field
 	
 	def runFile(sender)
-		self.progress_spinner.startAnimation(sender)
-		SpecRunner.new.runFile(testfile_field.stringValue)
-		self.progress_spinner.stopAnimation(sender)
+		error_field.stringValue = ''
+		progress_spinner.startAnimation(sender)
+		begin
+		  SpecRunner.new.runFile(testfile_field.stringValue)
+		rescue RuntimeError => e
+			puts "oops!! #{e.inspect}"
+			progress_spinner.stopAnimation(sender)
+			populateErrorMessage(sender, e)
+			return
+		end
+		progress_spinner.stopAnimation(sender)
 		populateWindow
 	end
 	
@@ -29,5 +38,9 @@ class TFRunButtonDelegate
 	def clearWindow(sender)
 		url = NSURL.URLWithString('')
 		browser.mainFrame.loadHTMLString('', :baseURL => url)
+	end
+	
+	def populateErrorMessage(sender, exception)
+		error_field.stringValue = exception.message.split(':').first
 	end
 end
