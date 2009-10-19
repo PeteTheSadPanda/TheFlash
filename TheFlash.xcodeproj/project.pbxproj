@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F89668B108D048F00D1E64A /* generic_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2F896688108D048F00D1E64A /* generic_spec.rb */; };
+		2F89668C108D048F00D1E64A /* other_generic_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2F89668A108D048F00D1E64A /* other_generic_spec.rb */; };
+		2F89668F108D04E700D1E64A /* TFTableDelegate_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2F89668E108D04E700D1E64A /* TFTableDelegate_spec.rb */; };
+		2F896691108D051300D1E64A /* spec_helper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2F896690108D051300D1E64A /* spec_helper.rb */; };
 		2FDB8E931087E574001FBB58 /* TFTableDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB8E921087E574001FBB58 /* TFTableDelegate.rb */; };
 		2FDB8E951087E58C001FBB58 /* TFRunButtonDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB8E941087E58C001FBB58 /* TFRunButtonDelegate.rb */; };
 		2FDB8F131087F3B9001FBB58 /* SpecRunner.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB8F121087F3B9001FBB58 /* SpecRunner.rb */; };
@@ -28,6 +32,10 @@
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F896688108D048F00D1E64A /* generic_spec.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = generic_spec.rb; sourceTree = "<group>"; };
+		2F89668A108D048F00D1E64A /* other_generic_spec.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = other_generic_spec.rb; sourceTree = "<group>"; };
+		2F89668E108D04E700D1E64A /* TFTableDelegate_spec.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TFTableDelegate_spec.rb; sourceTree = "<group>"; };
+		2F896690108D051300D1E64A /* spec_helper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = spec_helper.rb; sourceTree = "<group>"; };
 		2FDB8E921087E574001FBB58 /* TFTableDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TFTableDelegate.rb; sourceTree = "<group>"; };
 		2FDB8E941087E58C001FBB58 /* TFRunButtonDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TFRunButtonDelegate.rb; sourceTree = "<group>"; };
 		2FDB8F121087F3B9001FBB58 /* SpecRunner.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SpecRunner.rb; sourceTree = "<group>"; };
@@ -94,7 +102,7 @@
 		29B97314FDCFA39411CA2CEA /* TheFlash */ = {
 			isa = PBXGroup;
 			children = (
-				2FDB8AE71087D95E001FBB58 /* Spec */,
+				2F896687108D048F00D1E64A /* spec */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -109,6 +117,7 @@
 			children = (
 				4DE339F60D74FCDD00ADB6EE /* rb_main.rb */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				2F896690108D051300D1E64A /* spec_helper.rb */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -133,11 +142,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2FDB8AE71087D95E001FBB58 /* Spec */ = {
+		2F896687108D048F00D1E64A /* spec */ = {
 			isa = PBXGroup;
 			children = (
+				2F89668D108D04C700D1E64A /* app_specs */,
+				2F896688108D048F00D1E64A /* generic_spec.rb */,
+				2F896689108D048F00D1E64A /* other_specs */,
 			);
-			name = Spec;
+			path = spec;
+			sourceTree = "<group>";
+		};
+		2F896689108D048F00D1E64A /* other_specs */ = {
+			isa = PBXGroup;
+			children = (
+				2F89668A108D048F00D1E64A /* other_generic_spec.rb */,
+			);
+			path = other_specs;
+			sourceTree = "<group>";
+		};
+		2F89668D108D04C700D1E64A /* app_specs */ = {
+			isa = PBXGroup;
+			children = (
+				2F89668E108D04E700D1E64A /* TFTableDelegate_spec.rb */,
+			);
+			path = app_specs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +218,10 @@
 				2FDB8E951087E58C001FBB58 /* TFRunButtonDelegate.rb in Resources */,
 				2FDB8F131087F3B9001FBB58 /* SpecRunner.rb in Resources */,
 				2FDB90351089293E001FBB58 /* ey-logo-lg.png in Resources */,
+				2F89668B108D048F00D1E64A /* generic_spec.rb in Resources */,
+				2F89668C108D048F00D1E64A /* other_generic_spec.rb in Resources */,
+				2F89668F108D04E700D1E64A /* TFTableDelegate_spec.rb in Resources */,
+				2F896691108D051300D1E64A /* spec_helper.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
